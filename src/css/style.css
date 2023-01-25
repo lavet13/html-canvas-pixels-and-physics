@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    position: absolute;
+    background: blue;
+}
+
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    display: none;
+}
